@@ -1,0 +1,55 @@
+Users with meta: 
+[
+    {
+        "ID": 28,
+        "username": "abconsult",
+        "email": "abconsult@fakeuser.com",
+        "meta": {
+            "nickname": [
+                "abconsult"
+            ],
+            "first_name": [
+                ""
+            ],
+            "last_name": [
+                ""
+            ],
+            "description": [
+                ""
+            ],
+            "rich_editing": [
+                "true"
+            ],
+            "syntax_highlighting": [
+                "true"
+            ],
+            "comment_shortcuts": [
+                "false"
+            ],
+            "admin_color": [
+                "fresh"
+            ],
+            "use_ssl": [
+                "0"
+            ],
+            "show_admin_bar_front": [
+                "true"
+            ],
+            "locale": [
+                ""
+            ],
+            "wptk_capabilities": [
+                "a:1:{s:18:\"wp_freeio_employer\";b:1;}"
+            ],
+            "wptk_user_level": [
+                "0"
+            ],
+            "dismissed_wp_pointers": [
+                ""
+            ],
+            "employer_id": [
+                "5602"
+            ]
+        }
+    }
+] - 2024-12-08 10:58:27

@@ -17,5 +17,6 @@ class Autoloader {
         Enqueue_Assets::get_instance();
         // Admin_Top_Menu::get_instance();
         Admin_Sub_Menu::get_instance();
+        Sync_Users::get_instance();
     }
 }
