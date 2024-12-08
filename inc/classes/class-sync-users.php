@@ -15,7 +15,8 @@ class Sync_Users {
     }
 
     public function setup_hooks() {
-        add_action( 'admin_init', [ $this, 'get_users' ] );
+        // add_action( 'admin_init', [ $this, 'get_users' ] );
+        add_shortcode( 'display_users', [ $this, 'display_users' ] );
     }
 
     public function get_users() {
@@ -39,6 +40,14 @@ class Sync_Users {
 
         // Log the user data with meta
         $this->put_program_logs( 'Users with meta: ' . json_encode( $users_with_meta ) );
+    }
+
+    public function display_users() {
+        ob_start();
+
+        include_once PLUGIN_BASE_PATH . '/templates/template-sync-users.php';
+        
+        return ob_get_clean();
     }
 
 }
